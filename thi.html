@@ -1,0 +1,279 @@
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  text-decoration: none;
+}
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://dogifood.vn/Images/news/2008030203-am-thuc-mien-trung.jpg);
+  background-size: cover; 
+  height: 100vh; 
+  background-position: center;
+}
+ul.submenu{
+  font-size: 1rem;
+  text-align: center;
+  list-style-type: none;
+  padding: 0.8rem;
+  text-transform: uppercase;
+  display: grid;
+  grid-gap: 20px;
+  padding: 20px;
+  list-style: none;
+  grid-template-columns: repeat(5,1fr);
+}
+ul.submenu > li{
+  display: inline-block;
+}
+ul.submenu > li a{
+  text-decoration:none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul.submenu li a:hover{
+background-color: #fff;
+  color: #000;
+}
+ul.submenu > li.active a{
+  background-color: #fff;
+  color: #000;
+}
+.title h1{
+  display: grid;
+  grid-gap: 20px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  font-size: 60px;
+  text-align: Center;
+}
+.button{
+/*  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%); */
+  display: grid;
+  text-align: center;
+  grid-gap: 20px;
+  grid-template-areas:
+    'btn btn'
+    'btn btn';
+  
+}
+.btn{
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  color: #fff;
+  transition: 0.6s ease;
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none; 
+}
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+.login1{
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  transform: translate(-50%,-50%);
+}
+  .login2{
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  transform: translate(-50%,-50%);
+}
+
+ul.submenu li a:hover{
+background-color: #fff;
+  color: #000;
+}
+ ul.submenu1
+	{
+		width: 200px;
+		background: white;
+		min-height: 80px;
+		display: none;
+		position: absolute;
+    margin-top: 5px;
+	}
+	ul.submenu1 li
+	{
+		list-style: none;
+	}
+		ul.submenu1 li a
+		{
+			text-transform: none;
+			text-decoration: none;
+			color: white;
+			display: block;
+			border: 1px solid #ccc;
+			line-height: 40px;
+			text-indent: 10px;
+		}
+		ul.submenu > li:hover ul.submenu1{
+			display: block;
+			background-color: black;
+			color: red;
+			transform: ease-in 0.35s;
+		}
+		ul.submenu1 li a:hover{
+			background-color: gray;
+			color: black;
+			transform: ease-in 0.35s;
+  }
+  
+    ul.submenu2
+	{
+		width: 135px;
+		background: white;
+		min-height: 80px;
+		display: none;
+		position: absolute;
+    margin-top: 5px;
+	}
+	ul.submenu2 li
+	{
+		list-style: none;
+	}
+		ul.submenu2 li a
+		{
+			text-transform: none;
+			text-decoration: none;
+			color: white;
+			display: block;
+			border: 1px solid #ccc;
+			line-height: 40px;
+			text-indent: 10px;
+		}
+		ul.submenu > li:hover ul.submenu2{
+			display: block;
+			background-color: black;
+			color: red;
+			transform: ease-in 0.35s;
+		}
+		ul.submenu2 li a:hover{
+			background-color: gray;
+			color: black;
+			transform: ease-in 0.35s;
+  }
+  
+     ul.submenu3
+	{
+		width: 135px;
+		background: white;
+		min-height: 80px;
+		display: none;
+		position: absolute;
+    margin-top: 5px;
+	}
+	ul.submenu3 li
+	{
+		list-style: none;
+	}
+		ul.submenu3 li a
+		{
+			text-transform: none;
+			text-decoration: none;
+			color: white;
+			display: block;
+			border: 1px solid #ccc;
+			line-height: 40px;
+			text-indent: 10px;
+		}
+		ul.submenu > li:hover ul.submenu3{
+			display: block;
+			background-color: black;
+			color: red;
+			transform: ease-in 0.35s;
+		}
+		ul.submenu3 li a:hover{
+			background-color: gray;
+			color: black;
+			transform: ease-in 0.35s;
+  }  
+  
+  
+  @media (max-width: 700px){
+    .menu ul{
+      grid-template-columns: 1fr;
+      font-size: 1.3rem;
+    }
+    .title{
+      grid-template-columns: 1fr;
+    }
+    .title h1{
+      font-size: 3rem;
+      text-align: center;
+    }
+    .login .lgn{
+      display: block;
+      text-align: center;
+      margin: auto;
+      font-size: 1rem;
+    }
+  }
+</style>
+
+  
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ẨM THỰC MIỀN TRUNG</title>
+  </head>
+  <body>
+    <header>
+    <div class="main">
+      <nav class="menu">
+      <ul class="submenu">
+        <li class ="active"><a href="..">Trang chủ</a></li>
+        <li><a href="#">Đặc sản </a>
+        
+      <ul class="submenu1">
+	  <li><a href="#">Bún cá Nha Trang</a></li>
+	  <li><a href="#">Nem nướng</a></li>
+	  <li><a href="#">Yến sào Nha Trang</a></li>
+        <li><a href="#">...</a></li>
+          	</ul>  
+        
+        </li>
+        <li><a href="#">Khuyến mãi đặc biệt</a>
+        
+     <ul class="submenu3">
+	  <li><a href="#">Thức ăn nhanh</a></li>
+	  <li><a href="#">Hải sản</a></li>
+	  <li><a href="#">Thức uống</a></li>
+       <li><a href="#">...</a></li>
+	</ul> 
+        
+        </li>
+        <li><a href="#">Đặt hàng</a></li>
+        <li><a href="#">Hướng dẫn đặt hàng</a></li>
+      </ul>
+      </nav>
+      <div class="title">
+        <h1>
+          Chào Mừng Đến Với Ẩm Thực Miền Trung
+        </h1>
+      </div>
+      <div class="login1">
+         <a class= "lgn"></a>Liên hệ: 023548668</li>
+      <div class="login2">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.0353510070254!2d109.1895254146039!3d12.245885691334875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3170677f7191fa49%3A0x5c1561af07dd3149!2zMTIzIFF1YW5nIFRydW5nLCBM4buZYyBUaOG7jSwgVGjDoG5oIHBo4buRIE5oYSBUcmFuZywgS2jDoW5oIEjDsmEgNjUwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1640180717512!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></li>
+      </div>
+        </div>
+    </div>
+      </header>
+  </body>
+</html>
