@@ -11,6 +11,7 @@ header{
   height: 100vh; 
   background-position: center;
 }
+
 ul.submenu{
   font-size: 1rem;
   text-align: center;
@@ -21,7 +22,7 @@ ul.submenu{
   grid-gap: 20px;
   padding: 20px;
   list-style: none;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(6,1fr);
 }
 ul.submenu > li{
   display: inline-block;
@@ -91,10 +92,7 @@ ul.submenu > li.active a{
   transform: translate(-10%,-90%);
 }
 
-ul.submenu li a:hover{
-background-color: #fff;
-  color: #000;
-}
+
  ul.submenu1
 	{
 		width: 200px;
@@ -153,17 +151,7 @@ background-color: #fff;
 			line-height: 30px;
 			text-indent: 20px;
 		}
-		ul.submenu > li:hover ul.submenu2{
-			display: block;
-			background-color: black;
-			color: red;
-			transform: ease-in 0.35s;
-		}
-		ul.submenu2 li a:hover{
-			background-color: gray;
-			color: black;
-			transform: ease-in 0.35s;
-  }
+		
   
      ul.submenu3
 	{
@@ -174,10 +162,11 @@ background-color: #fff;
 		position: absolute;
     margin-top: 5px;
 	}
-	ul.submenu3 li
+  ul.submenu3 li
 	{
 		list-style: none;
 	}
+
 		ul.submenu3 li a
 		{
 			text-transform: none;
@@ -187,18 +176,12 @@ background-color: #fff;
 			border: 1px solid #ccc;
 			line-height: 30px;
 			text-indent: 20px;
+      width: 200px;
+      
 		}
-		ul.submenu > li:hover ul.submenu3{
-			display: block;
-			background-color: black;
-			color: red;
-			transform: ease-in 0.35s;
-		}
-		ul.submenu3 li a:hover{
-			background-color: gray;
-			color: black;
-			transform: ease-in 0.35s;
-  }  
+
+		
+  
   
   
   @media (max-width: 700px){
@@ -234,38 +217,26 @@ background-color: #fff;
   </head>
   <body>
     <header>
+      
     <div class="main">
       <nav class="menu">
+        <div class="active">
+          <img src="https://e2.yotools.net/images/user_image/2021/12/61cd35e2ce450.jpg" width="150" height="75" >
+        </div>
       <ul class="submenu">
-        <li class ="active"><a href="..">Trang chủ</a></li>
-        <li><a href="#">Đặc sản </a>
-        
-      <ul class="submenu1">
-	  <li><a href="#">Bún cá Nha Trang</a></li>
-	  <li><a href="#">Nem nướng</a></li>
-	  <li><a href="#">Yến sào Nha Trang</a></li>
-        <li><a href="#">...</a></li>
-          	</ul>  
-        
-        </li>
-        <li><a href="#">Khuyến mãi đặc biệt</a>
-        
-     <ul class="submenu3">
-	  <li><a href="#">Thức ăn nhanh</a></li>
-	  <li><a href="#">Hải sản</a></li>
-	  <li><a href="#">Thức uống</a></li>
-       <li><a href="#">...</a></li>
-	</ul> 
-        
-        </li>
+        <li><a href="#">Đặc sản </a></li>
+        <li><a href="#">Khuyến mãi đặc biệt</a></li>
         <li><a href="#">Đặt hàng</a></li>
         <li><a href="#">Hướng dẫn đặt hàng</a></li>
+        <li><a href="#">Liên hệ</a></li>
       </ul>
+      
       </nav>
       <div class="title">
         <h1>
           Chào Mừng Đến Với Ẩm Thực Miền Trung
         </h1>
+        
       </div>
       <div class="login1">
          <a class= "lgn"></a>Liên hệ: 023548668</li>
